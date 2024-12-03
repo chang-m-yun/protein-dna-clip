@@ -1,4 +1,4 @@
-name: immuneclip
+name: protein-dna-clip
 channels:
   - defaults
 dependencies:
@@ -24,8 +24,6 @@ dependencies:
   - xz=5.4.6
   - zlib=1.2.13
   - pip:
-      - git+https://github.com/oxpig/AbLang.git
-      - git+https://github.com/oxpig/AbLang2.git
       - accelerate==0.32.1
       - aiohttp==3.9.5
       - aiosignal==1.3.1
